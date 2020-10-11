@@ -4,3 +4,4 @@
 calc = input("Type Expression:\n")
 
 print("Answer =  " + str(eval(calc)))
+
