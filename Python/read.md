@@ -1,1 +1,1 @@
-Add snippets for cpp in this folder
+Add snippets for python in this folder
