@@ -12,5 +12,9 @@ if ch == "-":
     print("The difference is:", a - b)
 if ch == "*":
     print("The product is:", a * b)
-if ch == "/":
-    print("The quotient is:", a / b)
+while ch == "/":
+    if b != 0:
+        print("The quotient is:", a / b)
+        break
+    else:
+        b = int(input("Enter a divisor which is not 0: ")) 
