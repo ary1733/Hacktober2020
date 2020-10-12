@@ -37,7 +37,10 @@ while True:
     elif choice == '3':
         result = multiply(num1, num2)
     elif choice == '4':
-        result = divide(num1, num2)
+        if(num2 !=0):
+            result = divide(num1, num2)
+        else:
+            result="Divide by 0"
     else:
         print("Invalid Input")
 
