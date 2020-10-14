@@ -21,14 +21,16 @@ void hailstone(ll n, ll k=1){
     if(k==LIMIT)
         cout<<"Too many iterations\n";
     else
-    hailstone(n, k+1);
+        hailstone(n, k+1);
 }
 
 int main(){
-    int a[] = {4, 5, 6, 13, 54, 193, 7};
+    int tests[] = {4, 5, 6, 13, 54, 193, 7};
 
-    for(auto i : a)
-        hailstone(i);
+    for(auto case : tests){
+        hailstone(case);
+        cout<<"\n";
+    }
 
     return 0;
 }
