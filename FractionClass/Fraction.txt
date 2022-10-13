@@ -1,0 +1,29 @@
+
+Test Fraction Data Type
+Fraction f1(5, 3) = 5/3
+Fraction f2(7.2) = 36/5
+Fraction f3 = 1
+Assignment (Before): f3 = 1. f1 = 5/3
+Assignment (After): f3 = 5/3. f1 = 5/3
+Unary Minus: f3 = -5/3. f1 = 5/3
+Pre-Decrement (Before): f3 = 1. f1 = 5/3
+Pre-Decrement (After): f3 = 2/3. f1 = 2/3
+Post-Decrement (Before): f3 = 1. f1 = 2/3
+Post-Decrement (After): f3 = 2/3. f1 = -1/3
+Pre-Increment (Before): f3 = 1. f1 = -1/3
+Pre-Increment (After): f3 = 2/3. f1 = 2/3
+Post-Increment (Before): f3 = 1. f1 = 2/3
+Post-Increment (After): f3 = 2/3. f1 = 5/3
+Binary Plus: f3 = 29/36. f1 = 5/12. f2 = 7/18
+Binary Minus: f3 = 142/39. f1 = 16/3. f2 = 22/13
+Multiply: f3 = 3/10. f1 = 5/12. f2 = 18/25
+Divide: f3 = 15/14. f1 = 5/12. f2 = 7/18
+Residue: f3 = 1/36. f1 = 5/12. f2 = 7/18
+Equal: Test = false. f1 = 5/12. f2 = 7/18
+Not Equal: Test = true. f1 = 5/12. f2 = 7/18
+Less: Test = false. f1 = 5/12. f2 = 7/18
+Less Equal: Test = false. f1 = 5/12. f2 = 7/18
+Less Equal: Test = true. f1 = 5/12. f3 = 5/12
+Greater: Test = true. f1 = 5/12. f2 = 7/18
+Greater Equal: Test = true. f1 = 5/12. f2 = 7/18
+Greater Equal: Test = true. f1 = 5/12. f3 = 5/12
